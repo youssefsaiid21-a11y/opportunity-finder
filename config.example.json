@@ -1,0 +1,32 @@
+{
+  "target_geographies": [
+    "United Kingdom"
+  ],
+  "target_industries": [
+    "manufacturing"
+  ],
+  "target_categories": [
+    "conference",
+    "innovation_challenge",
+    "tender"
+  ],
+  "multilingual_keywords": {
+    "en": [
+      "industrial safety software"
+    ]
+  },
+  "anthropic_api_key": "${ANTHROPIC_API_KEY}",
+  "serper_api_key": "${SERPER_API_KEY}",
+  "teams_webhook_url": "${TEAMS_WEBHOOK_URL}",
+  "teams_mention_recipients": [],
+  "organization_profile": {
+    "name": "Example Company",
+    "description": "Fictional industrial safety software provider for demonstration."
+  },
+  "excluded_keywords": [],
+  "db_path": "opportunity_finder.db",
+  "search_enabled": true,
+  "browser_enabled": true,
+  "pdf_enabled": false,
+  "max_crawl_urls": 20
+}

@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+.env
+*.db
+*.log
+digest_fallback_*.txt
+.vscode/
+
+# Local organization configuration and editor state
+config.json
+.vscode/
+*.sqlite
+*.sqlite3
+
+# Local state never belongs in a portfolio snapshot
+.env
+.env.local
+.env.production
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+*.tsbuildinfo
+.DS_Store
+
+!.env.example
